@@ -6,8 +6,8 @@ This stack creates a self-contained, breadboard friendly, breakout board with an
 
 # PCB Stackup
 
-* 0.8 PCB spacer
-* Flex PCB bottom (for LED & resistor)
+* [0.8 PCB spacer](./Spacer)
+* [Flex PCB bottom (for LED & resistor)](./LED)
 
 The top PCB layer is the "spacer" creates a cavity for the [LED](https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/EAST1616RGBB2/8510360) and resistors. This should be around 0.8mm thick (or at least a little thicker than the resistor you're using).
 
