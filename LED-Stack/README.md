@@ -2,14 +2,21 @@
 
 This stack creates a self-contained, breadboard friendly, breakout board with LED. The LED will shine through the white KAN15 switch and light it up pretty well.
 
-![KAN15 Data](../images/led_row.jpg)
+![Layers](./layers.png)
 
 # PCB Stackup
 
-It starts with a PCB layer as thin as 0.8mm with a hole cut in the middle. This is the "spacer" layer and creates a cavity for the LED and resister.
+* 0.8 PCB spacer
+* Flex PCB bottom (for LED & resistor)
+
+The top PCB layer is the "spacer" creates a cavity for the LED and resistor. This should be around 0.8mm thick (or at least a little thicker than the resistor you're using).
 
 ![Spacer PCB](./Spacer/render.png)
 
-The bottom layer has the LED and resistor and should be placed below the spacer layer. You'll see some circular pads that can be used to connect the layers with solder. This layer can be made of flex PCB, to keep it really thin.
+The bottom layer has the LED and resistor and can be a thin flex PCB.
 
-![Spacer PCB](./LED/render.png)
+![Stacked](./layers-pcb-stack.png)
+
+To assist with lining the layers up and holding them together, there are matching solder pads on the sides of the PCB/Flex which connect (perhaps unnecessary).
+
+![Attachments](./attachments.png)
